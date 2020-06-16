@@ -12,7 +12,7 @@ $conn = new mysqli(DB_SERVER, DB_USER, DB_PASSWORD, DB_DATABASE);
 $result = $conn->query($sql);
 while ($row = $result->fetch_assoc()) {
     $id = $row['patrolcar_id'];
-    $status = $row['patrolcar_status_desc']
+    $status = $row['patrolcar_status_desc'];
     
     $car = [
         'id' => $id,

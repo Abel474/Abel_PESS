@@ -14,7 +14,7 @@
         <img src="images/banner.jpg" width="900" height="200" alt="" />
       </header>
       <?php
-        require_once 'nav.php'
+        require_once 'nav.php';
         ?>
       <section style="margin-top: 20px">
         <form action="update.php" method="post">

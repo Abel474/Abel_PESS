@@ -10,7 +10,7 @@
         $incidentType = ["id" => $id,"type" => $type];
         array_push($incidentTypes, $incidentType);
     }
-    $conn->close()
+    $conn->close(); 
 ?>
 <!doctype html>
 <html>

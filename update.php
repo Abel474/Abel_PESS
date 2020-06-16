@@ -23,7 +23,7 @@ if($btnSearchClicked == true) {
         $status = ['id'=>$id,'desc'=>$desc];
         array_push($statuses,$status);
     }
-    $conn->close(); 
+    $conn->close();
 }
 
 $btnUpdateClicked = isset($_POST['btnUpdate']);
